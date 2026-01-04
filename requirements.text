@@ -1,8 +1,14 @@
-streamlit
-pandas
-numpy
-Pillow
-torch
-torchvision
-plotly
-matplotlib
+# Streamlit for the app
+streamlit==1.52.2
+
+# PyTorch CPU-only
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
+
+# Image & data libraries
+pillow==12.1.0
+numpy==2.4.0
+pandas==2.3.3
+
+# Use PyTorch CPU wheels
+--index-url https://download.pytorch.org/whl/cpu
